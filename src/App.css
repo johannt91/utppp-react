@@ -3,3 +3,57 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+h2 {
+  font-size: 3.75rem!important;
+  padding-bottom: 2%;
+}
+
+p {
+  font-size: 30px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.navigation {
+  padding: 25px 45px 0;
+}
+
+.nav-item {
+  color: #000000!important;
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, rgba(35, 83, 153, 0.65) 45%, rgba(255, 255, 255, 1) 75%, #ffffff 100%), url(./images/bpiano.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  color: rgb(190, 189, 189);
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.philosophy {
+  margin: 0 auto 6%;
+  text-align: center;
+  width: 60vw;
+}
+
+footer {
+  position: sticky;
+  top: 100%;
+  padding: 30px;
+  color: #ffffff;
+  background-color: #235399;
+}
+
+.footer-text {
+  margin-bottom: 0;
+  font-size: 1vw!important;
+}
