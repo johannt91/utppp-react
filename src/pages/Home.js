@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <>
         <section className="hero">
-            <h1>Home Page</h1>
+            <h1>UNIVERSITY OF TORONTO <br/> PIANO PEDAGOGY</h1>
         </section>
 
         <section className="philosophy">
@@ -18,7 +18,7 @@ const Home = () => {
         </section>
 
         <section>
-            
+
         </section>
         </>
     )

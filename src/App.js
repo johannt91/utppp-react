@@ -1,4 +1,5 @@
 import './App.css';
+import './components/Navbar/Nav.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from './components/Header';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
@@ -16,7 +17,7 @@ function App() {
         <header className="App-header">
           <Header />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/media" component={Media} />
             <Route path="/people" component={People} />
             <Route path="/programs" component={Programs} />
