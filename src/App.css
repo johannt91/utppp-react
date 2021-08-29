@@ -103,46 +103,7 @@ p {
   text-align: center;
 }
 
-
 .discover img {
   height: auto;
   width: 100%;
-}
-
-footer {
-  position: sticky;
-  top: 100%;
-  margin-top: 10%;
-  color: #ffffff;
-}
-
-.footer-links a, .footer-contact span {
-  font-size: 1.3vw!important;
-  color: #ffffff;
-}
-
-.footer-text, .footer-text p {
-  font-size: .7rem!important;
-  background-color: #235399;
-  margin-bottom: 0;
-}
-
-.footer-links {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: .5rem;
-}
-
-.footer-text {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-}
-
-.footer-brand {
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  background-color: #00204E;
-  font-size: 1.7vw;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css';
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -7,10 +8,10 @@ const Footer = () => {
             <div className="footer-text">
                 <div className="footer-links">
                     <Link to="/">Home</Link>
-                    <Link to="/programs">Programs</Link>
-                    <Link to="/people">Our People</Link>
                     <Link to="/media">Watch &amp; Listen</Link>
-                    <Link to="/teacherportal">Teacher Portal</Link>
+                    <Link to="/programs">Programs</Link>
+                    <Link to="/teacherportal">Teacher Portal</Link>                    
+                    <Link to="/people">Our People</Link>
                 </div>
                 <p>
                     We wish to acknowledge this land on which the University of Toronto operates. 
@@ -21,6 +22,11 @@ const Footer = () => {
                 </p>
                 <div className="footer-contact">
                     <span>Contact Us</span>
+                    <address>
+                        Piano Pedagogy, Faculty of Music <br/>
+                        Edward Johnson Building <br/>
+                        80 Queen's Park
+                    </address>
                 </div>
             </div>
             
