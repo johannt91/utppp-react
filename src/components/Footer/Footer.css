@@ -5,29 +5,40 @@ footer {
     color: #ffffff;
   }
   
-  .footer-links a, .footer-contact span {
+  .footer-links a, .footer-contact {
     font-size: 1.3vw!important;
     color: #ffffff;
   }
   
-  .footer-text, .footer-text p {
+  .footer-text, .footer-text p, address {
     font-size: .7rem!important;
     background-color: #235399;
     margin-bottom: 0;
   }
-  
+
+  .footer-text p {
+      width: 50%;
+
+      margin-top: 5px;
+  }
+
   .footer-links {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(150px, 1fr));
-    grid-gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 19%;
   }
   
+  .footer-links-column {
+      display: flex;
+      flex-direction: column;
+  }
+
   .footer-text {
-    display: grid;
-    grid-template-columns: 33% 2fr 1fr;
-    justify-items: center;
-    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
     padding: 3rem;
+    gap: 4px;
   }
   
   .footer-brand {

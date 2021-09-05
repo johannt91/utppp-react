@@ -1,21 +1,31 @@
+@import '/src/assets/css/fonts.css';
+
 a:link {
     text-decoration: none;
   }
-  
-  .navigation {
-    padding: 25px 45px 0;
-  }
 
-ul li a{
-    color: black;
-    padding: 0 12px 15%;
+.navbar-nav a{
+    display: inline;
+    color: #000000;
+    margin: 0 20px;
+    padding: 0 4px 0;
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 1.4vw;
 }
 
-.nav {
-    margin-top: 6rem;
+.navbar-nav a:hover{
+    color: #000000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.075);
 }
+
 
 .active {
-    border-bottom: 2px solid #235399;
-    color: #235399;
+    border-bottom: 2px solid #235399!important;
+    color: #235399!important;
+    font-weight: 400!important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
 }

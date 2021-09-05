@@ -7,11 +7,15 @@ const Footer = () => {
         <footer>
             <div className="footer-text">
                 <div className="footer-links">
+                    <div className="footer-links-column">
                     <Link to="/">Home</Link>
-                    <Link to="/media">Watch &amp; Listen</Link>
                     <Link to="/programs">Programs</Link>
-                    <Link to="/teacherportal">Teacher Portal</Link>                    
-                    <Link to="/people">Our People</Link>
+                    <Link to="/people">Our People</Link> 
+                    </div>
+                    <div className="footer-links-column">
+                    <Link to="/media">Watch &amp; Listen</Link>
+                    <Link to="/teacherportal">Teacher Portal</Link> 
+                    </div>
                 </div>
                 <p>
                     We wish to acknowledge this land on which the University of Toronto operates. 

@@ -34,7 +34,7 @@ p {
 
 .hero h1 {
   padding-top: 8%;
-  font-size: 5.7rem;
+  font-size: 6.3vw;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -94,6 +94,14 @@ p {
   margin: 3% auto 10%;
   text-align: center;
   width: 65vw;
+}
+
+.philosophy h2 {
+  font-size: 4vw!important;
+}
+
+.philosophy p {
+  font-size: 2vw!important;
 }
 
 .discover {
