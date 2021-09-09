@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
     return (
     <Navbar collapseOnSelect bg="light" expand="lg">
-        <Navbar.Brand href="/" className="ms-5">University of Toronto <br/>Piano Pedagogy Program</Navbar.Brand>
+        <Navbar.Brand href="/" className="ms-5 logo">PIANO PEDAGOGY<br/><span>Faculty of Music, University of Toronto</span></Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" className="me-5"/>
             <Navbar.Collapse id="navbarScroll">
                 <Nav
