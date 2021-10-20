@@ -3,7 +3,7 @@ import './components/Navbar/Nav.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from './components/Header';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Programs from "./pages/Programs"
+import Degrees from "./pages/Degrees"
 import People from './pages/People';
 import Media from './pages/Media';
 import Home from './pages/Home';
@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/media" component={Media} />
             <Route path="/people" component={People} />
-            <Route path="/programs" component={Programs} />
+            <Route path="/degrees" component={Degrees} />
           </Switch>
         </header>
       </div>

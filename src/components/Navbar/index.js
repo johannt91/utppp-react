@@ -14,7 +14,7 @@ const Navigation = () => {
                 navbarScroll
                 >
                 <Nav.Link exact activeClassName="active" as={NavLink} to="/" eventKey="1">Home</Nav.Link>
-                <Nav.Link activeClassName="active" as={NavLink} to="/programs" eventKey="2">Programs</Nav.Link>
+                <Nav.Link activeClassName="active" as={NavLink} to="/degrees" eventKey="2">Programs</Nav.Link>
                 <Nav.Link activeClassName="active" as={NavLink} to="/people" eventKey="3">People</Nav.Link>
                 <Nav.Link activeClassName="active" as={NavLink} to="/media" eventKey="4">Watch &amp; Listen</Nav.Link>
                 <Nav.Link activeClassName="active" as={NavLink} to="/teacherportal" eventKey="5">Teacher Portal</Nav.Link>

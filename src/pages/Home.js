@@ -20,29 +20,15 @@ const Home = () => {
                 practicum offerings.
             </p>
         </section>
+        <div className="video">
+            <div>
+                <iframe src={"https://player.vimeo.com/video/350799297?h=667ed0ea4f&title=0&byline=0&portrait=0"} title="Midori Koga's Teaching studio" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+            
 
         <section className="discover">
-            <div>
-                <h3>Our Programs</h3>
-                <img 
-                src={require(`../assets/images/FrontPage/walterhall.jpeg`).default}
-                alt={"Walter Hall"}
-                />
-            </div>
-            <div>
-                <h3>Our People</h3>
-                <img 
-                src={require(`../assets/images/FrontPage/midori.jpeg`).default}
-                alt={"Midori Koga"}
-                />
-            </div>
-            <div>
-                <h3>Study with Us</h3>
-                <img 
-                src={require(`../assets/images/FrontPage/utso.jpeg`).default}
-                alt={"University of Toronto Symphony Orchestra"}
-                />
-            </div>
+
         </section>
         </>
     )

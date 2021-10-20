@@ -1,0 +1,9 @@
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-item {
+    height: 200px;
+    width: 225px;
+}

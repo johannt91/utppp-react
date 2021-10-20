@@ -1,9 +1,10 @@
 import React from 'react'
+import Gallery from '../components/Gallery'
 
 const People = () => {
     return (
         <div>
-            <h1>People</h1>
+            <Gallery/>
         </div>
     )
 }
