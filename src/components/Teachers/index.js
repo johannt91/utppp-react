@@ -1,7 +1,7 @@
 import React from 'react'
-import './Gallery.css'
+import './Teachers.css'
 
-const Gallery = () => {
+const Teachers = () => {
     const photos = [
         {
             name: "Louise Hung",
@@ -38,7 +38,11 @@ const Gallery = () => {
         {
             name: "Iris Hung",
             imgTitle: "iris"
-        }        
+        },
+        {
+            name: "Kate Acone",
+            imgTitle: "kate"
+        }
 ]
 
     return (
@@ -55,4 +59,4 @@ const Gallery = () => {
     )
 }
 
-export default Gallery
+export default Teachers;

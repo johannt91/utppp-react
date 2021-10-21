@@ -123,3 +123,17 @@ iframe {
   height: 100vh;
   width: 100vw;
 }
+
+.teachers {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.teachers h2 {
+  font-size: 3rem!important;
+  border-bottom: solid 3px #000000;
+  padding-bottom: 0;
+  margin: 2% auto 4%;
+  width: 80%;
+}

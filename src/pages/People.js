@@ -1,11 +1,12 @@
 import React from 'react'
-import Gallery from '../components/Gallery'
+import Teachers from '../components/Teachers'
 
 const People = () => {
     return (
-        <div>
-            <Gallery/>
-        </div>
+        <section className="teachers">
+            <h2>Teachers</h2>
+            <Teachers/>
+        </section>
     )
 }
 

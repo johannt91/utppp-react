@@ -1,0 +1,11 @@
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.photo-item {
+height: 275px;
+width: 275px;
+}
